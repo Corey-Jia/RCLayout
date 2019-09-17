@@ -119,13 +119,12 @@ RCLayout 默认对自身背景剪裁，但是可以通过设置 clip_background 
 在项目的 `build.gradle` 文件中配置仓库地址。
 
 ```groovy
-allprojects {
-    repositories {
-        jcenter()
-        // 私有仓库地址
-       maven { url "http://lib.gcssloop.com:8081/repository/gcssloop-central/" }
-    }
-}
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
 #### 4.2 添加项目依赖
@@ -133,7 +132,7 @@ allprojects {
 在需要添加依赖的 Module 下添加以下信息，使用方式和普通的远程仓库一样。
 
 ```groovy
-implementation 'com.gcssloop.widget:rclayout:1.8.1'
+implementation 'com.github.Corey-Jia:RCLayout:1.0.1'
 ```
 
 ## 作者简介
