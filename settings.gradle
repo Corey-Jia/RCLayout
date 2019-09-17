@@ -1,0 +1,2 @@
+include ':app', ':rcimage'
+rootProject.name='RCImageView'
