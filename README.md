@@ -132,5 +132,5 @@ RCLayout 默认对自身背景剪裁，但是可以通过设置 clip_background 
 在需要添加依赖的 Module 下添加以下信息，使用方式和普通的远程仓库一样。
 
 ```groovy
-implementation 'com.github.Corey-Jia:RCLayout:1.0.1'
+implementation 'com.github.Corey-Jia:RCLayout:1.0.2'
 ```
