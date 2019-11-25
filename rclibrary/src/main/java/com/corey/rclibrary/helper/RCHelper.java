@@ -20,7 +20,7 @@
  * WebSite: http://www.gcssloop.com
  */
 
-package com.corey.rcimage.helper;
+package com.corey.rclibrary.helper;
 
 
 import android.content.Context;
@@ -31,7 +31,7 @@ import android.os.Build;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Checkable;
-import com.corey.rcimage.R;
+import com.corey.rclibrary.R;
 
 import java.util.ArrayList;
 

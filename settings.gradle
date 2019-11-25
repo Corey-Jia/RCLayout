@@ -1,2 +1,2 @@
-include ':app', ':rcimage'
+include ':app', ':rclibrary'
 rootProject.name='RCImageView'

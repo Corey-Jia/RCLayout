@@ -20,7 +20,7 @@
  * WebSite: http://www.gcssloop.com
  */
 
-package com.corey.rcimage;
+package com.corey.rclibrary;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -29,8 +29,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.Checkable;
 import android.widget.ImageView;
-import com.corey.rcimage.helper.RCAttrs;
-import com.corey.rcimage.helper.RCHelper;
+import com.corey.rclibrary.helper.RCAttrs;
+import com.corey.rclibrary.helper.RCHelper;
 
 
 /**

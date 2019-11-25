@@ -1,4 +1,4 @@
-package com.corey.rcimage;
+package com.corey.rclibrary;
 
 import org.junit.Test;
 

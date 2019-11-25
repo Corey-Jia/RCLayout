@@ -1,4 +1,4 @@
-package com.corey.rcimage;
+package com.corey.rclibrary;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.corey.rcimage.test", appContext.getPackageName());
+        assertEquals("com.corey.rclibrary.test", appContext.getPackageName());
     }
 }

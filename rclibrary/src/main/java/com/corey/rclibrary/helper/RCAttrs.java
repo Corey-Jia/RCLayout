@@ -20,7 +20,7 @@
  * WebSite: http://www.gcssloop.com
  */
 
-package com.corey.rcimage.helper;
+package com.corey.rclibrary.helper;
 
 public interface RCAttrs {
     void setClipBackground(boolean clipBackground);
