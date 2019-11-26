@@ -26,6 +26,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
+import android.view.View;
 import android.widget.Checkable;
 import android.widget.RelativeLayout;
 import com.corey.rclibrary.helper.RCAttrs;
@@ -49,6 +50,7 @@ public class RCRelativeLayout extends RelativeLayout implements Checkable, RCAtt
 
     public RCRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        setLayerType(View.LAYER_TYPE_SOFTWARE,null);
         mRCHelper = new RCHelper();
         mRCHelper.initAttrs(context, attrs);
     }
