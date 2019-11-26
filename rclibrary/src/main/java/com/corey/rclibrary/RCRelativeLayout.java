@@ -24,6 +24,7 @@ package com.corey.rclibrary;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.os.Build;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -50,7 +51,9 @@ public class RCRelativeLayout extends RelativeLayout implements Checkable, RCAtt
 
     public RCRelativeLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        setLayerType(View.LAYER_TYPE_SOFTWARE,null);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            setLayerType(View.LAYER_TYPE_SOFTWARE,null);
+        }
         mRCHelper = new RCHelper();
         mRCHelper.initAttrs(context, attrs);
     }
