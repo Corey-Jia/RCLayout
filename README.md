@@ -1,6 +1,7 @@
-# RCLayout(圆角布局)
+本项目由[GcsSloop](https://github.com/GcsSloop/rclayout)开发, 因为目前原项目停止维护, 但是有部分机型会出现问题, 所以在此个人单独处理, 感谢GcsSloop
 
-本项目由[GcsSloop](https://github.com/GcsSloop/rclayout)开发, 因为目前原项目停止维护, 但是有部分机型会出现问题, 所以在次个人单独处理, 感谢GcsSloop
+
+# RCLayout(圆角布局)
 
 Android 通用圆角布局，快速实现圆角需求。
 
